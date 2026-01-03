@@ -61,7 +61,7 @@ const projects = [
 </script>
 
 <template>
-  <section class="p-10 mx-auto bg-blue-900">
+  <section class="p-5 mx-auto bg-blue-900">
     <!-- Section Header -->
     <div class="text-center mb-14">
       <i class="bx bx-grid-column-right text-3xl text-yellow-500"></i>
