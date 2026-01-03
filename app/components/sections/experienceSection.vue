@@ -48,7 +48,7 @@ const experiences = [
 </script>
 
 <template>
-  <section class="px-10 mx-auto py-5 bg-white">
+  <section class="px-6 mx-auto py-5 bg-white">
     <!-- Section Header -->
     <div class="text-center mb-14">
       <i class="bx bx-briefcase-alt-2 text-3xl text-blue-500"></i>
@@ -64,7 +64,7 @@ const experiences = [
         v-for="(experience, index) in experiences"
         :key="index"
         data-aos="fade-up"
-        class="bg-white border border-gray-300 rounded-sm shadow-sm p-6 flex flex-col">
+        class="bg-white border border-gray-300 rounded-sm shadow-sm p-3 lg:p-6 flex flex-col">
         <!-- Header -->
         <div class="flex items-center gap-4 mb-4">
           <!-- Logo -->
@@ -75,7 +75,7 @@ const experiences = [
 
           <!-- Meta -->
           <div class="flex-1">
-            <h3 class="text-lg font-semibold">
+            <h3 class="text-md lg:text-lg font-semibold">
               {{ experience.company }}
             </h3>
             <p class="text-blue-600 font-medium">
@@ -88,7 +88,8 @@ const experiences = [
         </div>
 
         <!-- Description -->
-        <div class="text-gray-700 leading-relaxed text-justify flex-1">
+        <div
+          class="text-gray-700 leading-relaxed text-left lg:text-justify flex-1">
           {{ experience.description }}
         </div>
       </div>
