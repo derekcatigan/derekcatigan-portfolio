@@ -93,7 +93,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="p-10 mx-auto">
+  <section class="p-5 mx-auto">
     <!-- Section Header -->
     <div class="text-center mb-14">
       <i class="bx bx-grid-column-right text-3xl text-blue-500"></i>
