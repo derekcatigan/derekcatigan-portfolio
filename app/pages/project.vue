@@ -118,9 +118,9 @@ useSeoMeta({
         data-aos="fade-up"
         class="p-3 bg-white border border-gray-300 shadow-md rounded">
         <div class="flex flex-wrap items-stretch gap-1">
-          <!-- Project Sample -->
+          <!-- Project Image -->
           <div
-            class="flex-1 min-w-50 p-3 border border-gray-300 rounded shadow-lg overflow-hidden">
+            class="w-full md:w-72 lg:w-80 p-3 border border-gray-300 rounded shadow-lg overflow-hidden">
             <img
               :src="project.projectImage"
               alt="Project"
