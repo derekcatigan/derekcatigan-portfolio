@@ -3,6 +3,7 @@
 import { onMounted } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 import Header from "~/components/partials/header.vue";
 import Footer from "~/components/partials/footer.vue";
@@ -21,4 +22,5 @@ onMounted(() => {
     <slot />
   </main>
   <Footer />
+  <SpeedInsights />
 </template>
