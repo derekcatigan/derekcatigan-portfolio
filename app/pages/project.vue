@@ -40,24 +40,24 @@ const projects = [
       "DaisyUI",
     ],
   },
-  // {
-  //   projectImage: HavilahSystem,
-  //   projectTitle: "Havilah Polymedic Online Appointment with Queueing System",
-  //   projectDescription: `
-  //       A web-based appointment and queueing system developed for a medical clinic to streamline patient scheduling and reduce waiting time.
-  //       The system enables patients to book appointments online while allowing staff to manage queues, appointments, and service flow efficiently.
-  //       `,
-  //   techStack: ["PHP", "Laravel", "JQuery", "MySQL", "TailwindCSS", "DaisyUI"],
-  // },
-  // {
-  //   projectImage: FirstAidSystem,
-  //   projectTitle: "First Aid Vendo Management System",
-  //   projectDescription: `
-  //       A management system built to monitor and manage first aid vending machines.
-  //       The system tracks inventory, machine status, and item availability, helping administrators ensure timely restocking and efficient operation.
-  //       `,
-  //   techStack: ["PHP", "Laravel", "JQuery", "MySQL", "TailwindCSS", "DaisyUI"],
-  // },
+  {
+    projectImage: HavilahSystem,
+    projectTitle: "Havilah Polymedic Online Appointment with Queueing System",
+    projectDescription: `
+        A web-based appointment and queueing system developed for a medical clinic to streamline patient scheduling and reduce waiting time.
+        The system enables patients to book appointments online while allowing staff to manage queues, appointments, and service flow efficiently.
+        `,
+    techStack: ["PHP", "Laravel", "JQuery", "MySQL", "TailwindCSS", "DaisyUI"],
+  },
+  {
+    projectImage: FirstAidSystem,
+    projectTitle: "First Aid Vendo Management System",
+    projectDescription: `
+        A management system built to monitor and manage first aid vending machines.
+        The system tracks inventory, machine status, and item availability, helping administrators ensure timely restocking and efficient operation.
+        `,
+    techStack: ["PHP", "Laravel", "JQuery", "MySQL", "TailwindCSS", "DaisyUI"],
+  },
   {
     projectImage: MswdSystem,
     projectTitle: "MSWD Management Information System",
